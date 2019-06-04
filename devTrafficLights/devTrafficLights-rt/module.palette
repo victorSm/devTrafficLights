@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajaObjectGraph version="4.0" reversibleEncodingKeySource="none" reversibleEncodingValidator="[null.1]=" >
+
+    <p m="b=baja" t="b:UnrestrictedFolder">
+        <p m="dtl=devTrafficLights" t="dtl:FirstComponent" n="FirstComponent" />
+        <p m="dtl=devTrafficLights" t="dtl:ModifiedFirstComponent" n="ModifiedFirstComponent" />
+        <p m="dtl=devTrafficLights" t="dtl:SecondComponent" n="SecondComponent" />
+        <p m="dtl=devTrafficLights" t="dtl:CameraNode" n="CameraNode" />
+        <p m="dtl=devTrafficLights" t="dtl:ComponentToTestActions" n="ComponentToTestActions" />
+        <p m="dtl=devTrafficLights" t="dtl:RgbColor" n="RgbColor" />
+        <p m="dtl=devTrafficLights" t="dtl:StdColors" n="StdColors" />
+        <p m="dtl=devTrafficLights" t="dtl:TrafficLightColor" n="TrafficLightColor" />
+        <p m="dtl=devTrafficLights" t="dtl:TrafficLightController" n="TrafficLightController" />
+        <p m="dtl=devTrafficLights" t="dtl:TrafficMonitorService" n="TrafficMonitor"/>
+        <p m="dtl=devTrafficLights" t="dtl:TrafficMonitorJob" n="TrafficMonitorJob"/>
+    </p>
+
+</bajaObjectGraph>

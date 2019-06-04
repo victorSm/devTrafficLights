@@ -1,0 +1,32 @@
+/* Module Build File */
+
+description     = "N4 Developer's course laptop set up"
+ext {
+}
+niagaraModule {
+  moduleName = "devTrafficLights"
+  preferredSymbol = "dtl"
+  runtimeProfile = "wb"
+}
+
+dependencies {
+  compile "Tridium:nre:4.6"
+  compile "Tridium:baja:4.6"
+  compile "Tridium:alarm-rt:4.6"
+  compile "Tridium:alarm-ux:4.6"
+  compile "Tridium:alarm-wb:4.6"
+  compile "Tridium:bql-rt:4.6"
+  compile "Tridium:bql-ux:4.6"
+  compile "Tridium:control-rt:4.6"
+  compile "Tridium:control-ux:4.6"
+  compile "Tridium:control-wb:4.6"
+  compile "Tridium:history-rt:4.6"
+  compile "Tridium:history-ux:4.6"
+  compile "Tridium:history-wb:4.6"
+  compile project(":devTrafficLights-rt")
+}
+
+moduleTestJar {
+  from('srcTest') {
+  }
+}

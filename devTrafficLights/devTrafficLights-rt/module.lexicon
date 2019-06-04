@@ -1,0 +1,6 @@
+#
+# Lexicon for the devTrafficLight module.
+#
+devTrafficLightView.out = Out
+devTrafficLightView.color = Color
+devTrafficLightView.minimumYellowTime = Minimum Yellow Time

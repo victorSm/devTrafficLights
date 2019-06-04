@@ -1,0 +1,39 @@
+<!-- Module Include File -->
+<!-- Types -->
+<types>
+  <!-- Type Example:<type name="MyClass" class="com.acme.BMyClass"/> -->
+  <!--com.acme.devtrafficlights.ux-->
+  <type class="com.acme.devtrafficlights.ux.BTrafficLightView" name="TrafficLightView">
+    <agent default="true">
+      <on type="devTrafficLights:TrafficLightController"/>
+    </agent>
+  </type>
+  <type class="com.acme.devtrafficlights.ux.BTrafficLightColorFE" name="TrafficLightColorFE">
+    <agent default="true">
+      <on type="devTrafficLights:TrafficLightColor"/>
+    </agent>
+  </type>
+  <type class="com.acme.devtrafficlights.ux.BTrafficLightWidget" name="TrafficLightWidget">
+    <agent>
+      <on type="devTrafficLights:TrafficLightController"/>
+    </agent>
+  </type>
+  <!--com.acme.devtrafficlights.ui-->
+  <type class="com.acme.devtrafficlights.ui.BTrafficLightDetails" name="TrafficLightDetails"/>
+  <!--com.acme.devTrafficLights.ux-->
+  <type class="com.acme.devTrafficLights.ux.BTrafficLightWidget" name="TrafficLightWidget">
+    <agent>
+      <on type="devTrafficLights:TrafficLightController"/>
+    </agent>
+  </type>
+  <type class="com.acme.devTrafficLights.ux.BTrafficLightView" name="TrafficLightView">
+    <agent>
+      <on type="devTrafficLights:TrafficLightController" />
+    </agent>
+  </type>
+  <type class="com.acme.devTrafficLights.ux.BTrafficLightColorFE" name="TrafficLightColorFE">
+    <agent>
+      <on type="devTrafficLights:TrafficLightColor"/>
+    </agent>
+  </type>
+</types>

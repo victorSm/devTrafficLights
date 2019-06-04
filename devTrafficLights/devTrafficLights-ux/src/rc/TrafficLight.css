@@ -1,0 +1,61 @@
+/* --- traffic light widget style below----------------- */
+ .bajaux-widget-outer > div.d3_TrafficLightWidgetOuter.bajaux-widget {
+   background-color: #444444;
+   overflow: hidden;
+   height: 100%;
+ }
+
+ #d3_lightContainer {
+   fill-opacity: 1;
+   fill: #666666;
+ }
+
+ .d3_inactive {
+     opacity: .1;
+ }
+
+ .d3_active {
+     opacity: 1;
+ }
+
+ #d3_redLight {
+     fill: Red;
+ }
+ #d3_yellowLight {
+     fill: OrangeRed;
+ }
+ #d3_greenLight {
+     fill: SpringGreen;
+ }
+
+ /* --- traffic light view style below------------------ */
+
+ .example-traffic-light-view-outer-column1 {
+   width:550px;
+   float:left;
+ }
+ .example-traffic-light-view-outer-column2 {
+   width:100px;
+   float:left;
+   padding:10px;
+ }
+
+ .example-traffic-light-view-column1 {
+   width:200px;
+   float:left;
+   padding:10px;
+   text-align: right;
+  }
+ .example-traffic-light-view-column2 {
+   width:300px%;
+   float:left;
+   padding:10px;
+ }
+ .example-traffic-light-view-cleared {
+   clear: both;
+ }
+
+ .example-traffic-light-view-widget-container {
+   width: 40px;
+   height: 110px;
+ }

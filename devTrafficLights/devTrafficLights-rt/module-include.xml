@@ -1,0 +1,21 @@
+<!-- Module Include File -->
+<!-- Types -->
+<types>
+  <!--com.acme.devTrafficLights-->
+  <type class="com.acme.devTrafficLights.BFirstComponent" name="FirstComponent"/>
+  <type class="com.acme.devTrafficLights.BModifiedFirstComponent" name="ModifiedFirstComponent"/>
+  <type class="com.acme.devTrafficLights.BSecondComponent" name="SecondComponent"/>
+  <type class="com.acme.devTrafficLights.BCameraNode" name="CameraNode"/>
+  <type class="com.acme.devTrafficLights.BComponentToTestActions" name="ComponentToTestActions"/>
+  <type class="com.acme.devTrafficLights.BRgbColor" name="RgbColor"/>
+  <type class="com.acme.devTrafficLights.BStdColors" name="StdColors"/>
+  <type class="com.acme.devTrafficLights.BTrafficLightColor" name="TrafficLightColor"/>
+  <type class="com.acme.devTrafficLights.BTrafficLightController" name="TrafficLightController"/>
+  <type class="com.acme.devTrafficLights.services.BTrafficMonitorJob" name="TrafficMonitorJob"/>
+  <type class="com.acme.devTrafficLights.services.BTrafficMonitorService" name="TrafficMonitorService"/>
+  <type class="com.acme.devTrafficLights.BTrafficMixin" name="TrafficMixin">
+    <agent>
+      <on type="baja:User"/>
+    </agent>
+  </type>
+</types>

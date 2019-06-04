@@ -1,0 +1,42 @@
+
+<div class='example-traffic-light-view'>
+
+    <div class="example-traffic-light-view-outer-column1">
+
+        <!-- min yellow time -->
+        <div class="example-traffic-light-view-column1">
+            <label>{{minimumYellowTimeText}}:</label>
+        </div>
+        <div class="example-traffic-light-view-column2">
+            <input class='example-traffic-light-view-minimumYellowTime' type='text' value='{{minimumYellowTimeValue}}' readonly='readonly'/>
+        </div>
+        <div class="example-traffic-light-view-cleared"></div>
+
+        <!-- out -->
+        <div class="example-traffic-light-view-column1">
+            <label>{{outText}}:</label>
+        </div>
+        <div class="example-traffic-light-view-column2">
+            <input class='example-traffic-light-view-out' type='text' value='{{outValue}}' readonly='readonly'/>
+        </div>
+        <div class="example-traffic-light-view-cleared"></div>
+
+        <!-- color -->
+        <div class="example-traffic-light-view-column1">
+            <label>{{colorText}}: </label>
+        </div>
+        <div class="example-traffic-light-view-column2">
+            <input class='example-traffic-light-view-color' type='text' value='{{colorValue}}' readonly='readonly'/>
+        </div>
+        <div class="example-traffic-light-view-cleared"></div>
+
+    </div>
+
+    <div class="example-traffic-light-view-outer-column2">
+
+        <div class="example-traffic-light-view-widget-container"></div>
+
+    </div>
+
+
+</div>

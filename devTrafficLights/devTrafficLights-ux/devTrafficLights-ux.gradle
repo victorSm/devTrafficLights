@@ -1,0 +1,56 @@
+/* Module Build File */
+
+// So the device manager views work on JACE,
+// build wb against compact3 tasks.withType(JavaCompile) {
+//  options.compilerArgs << "-profile" << "compact3"
+//}
+
+niagaraModule {
+  moduleName = "devTrafficLights"
+  runtimeProfile = "ux"
+}
+
+dependencies {
+  compile project(':devTrafficLights-rt')
+  compile "Tridium:nre:4.6"
+  compile "Tridium:baja:4.6"
+  compile "Tridium:bajaui-wb:4.6"
+  compile "Tridium:workbench-wb:4.6"
+  compile "Tridium:box-rt:4.6"
+  compile "Tridium:bajaux-rt:4.6"
+  compile "Tridium:gx-rt:4.6"
+  compile "Tridium:web-rt:4.6"
+  compile "Tridium:alarm-rt:4.6"
+  compile "Tridium:bql-rt:4.6"
+  compile "Tridium:control-rt:4.6"
+  compile "Tridium:history-rt:4.6"
+  compile project(":devTrafficLights-rt")
+}
+
+//--------------------
+
+dependencies {
+ compile "Tridium:nre:4.6"
+  compile "Tridium:baja:4.6"
+  compile "acme:devTrafficLights-rt:1.0"
+  compile "Tridium:gx-wb:4.6"
+//  compile project(":signalDriver-rt")
+}
+
+jar {
+  from('src') {
+    include 'rc/*'
+    include 'rc/**/*.js'
+    exclude 'rc/**/*.built.js'
+    include 'rc/**/*.hbs'
+    include 'rc/**/*.css'
+    include 'res/*'
+    include 'res/**/*.png'
+    include 'res/**/*.px'
+  }
+}
+
+moduleTestJar {
+  from('srcTest') {
+  }
+}
